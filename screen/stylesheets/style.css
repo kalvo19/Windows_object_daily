@@ -1,0 +1,21 @@
+/* TYPOGRAPHY */
+p, h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+/* GENERAL PROPERTIES */
+header h1 em {
+  font-family: "DejaVu Sans Mono";
+  font-style: normal; }
+
+main section {
+  height: 300px;
+  overflow: hidden; }
+main section p, main h2 {
+  margin: 20px; }
+main #outerSize {
+  margin: 0 auto;
+  width: 100%;
+  background: darkgoldenrod; }
+
+/*# sourceMappingURL=style.css.map */
