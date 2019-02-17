@@ -8,9 +8,15 @@ console.log(document.defaultView); //By calling the window reference of the curr
 /* Opening and closing a blank window
 -----------------------------------------------------*/
 let nuevaPestaña = window.open('', '',''); //Opens a new 'about:blank' tab in the browser
+
 window.close(); //WARNING: We can't close the windows that were opened before executing this script
+
 nuevaPestaña.close(); //Closes the window previously created
-let nuevaVentana = window.open('','_blank', 'height=500px, width=500px, left=400px'); //Opens a new window instead of a tab. NOTICE: Positioning (WIDTH AND HEIGHT) and SIZING can be set nothing but pixels
+
+/*
+Opens a new window instead of a tab. NOTICE: Positioning (WIDTH AND HEIGHT) and SIZING can be set nothing but pixels
+ */
+let nuevaVentana = window.open('','_blank', 'height=500px, width=500px, left=400px');
 
 
 /* 1-- Using 'window' methods explicitly
@@ -41,9 +47,20 @@ var quote = "I'm gonna rock out with my cock out";
 
 /* NOTICE: VAR sets the variable into the 'window' global scope object while LET and CONST doesn't */
 
-console.log(window.quote); // Show the value of the variable if declared with VAR and 'null' if declared with LET and CONST
-console.log(quote); // Show the value whether it was declared with VAR, LET and CONST
-console.log(window); //Checking if the variable has been set in the global object
+/*
+Show the value of the variable if declared with VAR and 'null' if declared with LET and CONST
+ */
+console.log(window.quote);
+
+/*
+Show the value whether it was declared with VAR, LET and CONST
+ */
+console.log(quote);
+
+/*
+Checking if the variable has been set in the global object
+ */
+console.log(window);
 
 
 /* 6-- Getting all the CSS properties of an element

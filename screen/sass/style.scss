@@ -5,10 +5,6 @@ p, h1, h2, h3 {
 }
 
 /* GENERAL PROPERTIES */
-input {
-
-}
-
 
 header {
   h1 em {
@@ -18,6 +14,7 @@ header {
 }
 
 main {
+  font-size: 2em;
   section {
     height: 300px;
     overflow: hidden;
@@ -31,5 +28,62 @@ main {
     margin: 0 auto;
     width: 100%;
     background: darkgoldenrod;
+  }
+
+  #windowSize {
+    background: sandybrown;
+  }
+
+  #innerSize {
+    background: cornflowerblue;
+  }
+
+  #clientScreen {
+        background: url("../images/stifmeister.jpg") center;
+        width: 100%;
+
+      #stifmeister {
+        --cursorX: -25px;
+        --cursorY: -25px;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+          circle 100px at var(--cursorX) var(--cursorY),
+          rgba(0,0,0,0) 0%,
+          rgba(0,0,0,0.7) 50%,
+          rgba(0,0,0,0.95) 100%
+        );
+
+        /*background: -moz-radial-gradient(
+          circle 100px at var(--cursorX) var(--cursorY),
+          rgba(0,0,0,0) 0%,
+          rgba(0,0,0,0.7) 50%,
+          rgba(0,0,0,0.95) 100%
+          );*/
+        }
+  }
+
+  #scrollScreen {
+    background: darkgray;
+    overflow: auto;
+      img {
+        position: relative;
+        left: 100%;
+        height: 100%;
+      }
+
+      .displaced {
+        opacity: 1.0;
+        transition: opacity 2s ease-in-out;
+        -moz-transition: opacity 2s ease-in-out;
+      }
+
+      .hidden {
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+        -moz-transition: opacity 2s ease-in-out;
+      }
   }
 }
