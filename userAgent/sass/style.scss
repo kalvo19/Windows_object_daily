@@ -1,0 +1,32 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: flex;
+  img {
+    height: 200px;
+    widht: 200px;
+  }
+  #browser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: cornflowerblue;
+    height: 90vh;
+    width: 50%;
+  }
+
+  #device {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: coral;
+    height: 90vh;
+    width: 50%;
+  }
+}

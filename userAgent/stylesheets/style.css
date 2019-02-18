@@ -1,0 +1,28 @@
+h1 {
+  font-family: 'Open Sans', sans-serif; }
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  display: flex; }
+  main img {
+    height: 200px;
+    widht: 200px; }
+  main #browser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: cornflowerblue;
+    height: 90vh;
+    width: 50%; }
+  main #device {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: coral;
+    height: 90vh;
+    width: 50%; }
+
+/*# sourceMappingURL=style.css.map */
