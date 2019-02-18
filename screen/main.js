@@ -1,10 +1,10 @@
 /* Events triggered in index.html */
-window.addEventListener('resize', showingOuterSize);
-window.addEventListener('resize', showingScreenSize);
-window.addEventListener('resize', showingInnerSize);
-document.getElementById('clientScreen').addEventListener('mousemove', showingClientPointer);
-document.getElementById('scrollScreen').addEventListener('scroll', showingScrollPosition);
-document.getElementById('scrollScreen').addEventListener('wheel', showingScrollPosition);
+//window.addEventListener('resize', showingOuterSize);
+//window.addEventListener('resize', showingScreenSize);
+//window.addEventListener('resize', showingInnerSize);
+//document.getElementById('clientScreen').addEventListener('mousemove', showingClientPointer);
+//document.getElementById('scrollScreen').addEventListener('scroll', showingScrollPosition);
+//document.getElementById('scrollScreen').addEventListener('wheel', showingScrollPosition);
 
 /* ------- GENERAL FUNCTION ------- */
 
